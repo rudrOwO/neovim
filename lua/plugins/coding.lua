@@ -18,4 +18,8 @@ return {
       table.insert(opts.adapters, require("neotest-vitest"))
     end,
   },
+  {
+    "linux-cultist/venv-selector.nvim",
+    enabled = false,
+  },
 }
