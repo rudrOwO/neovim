@@ -4,14 +4,17 @@ return {
     "navarasu/onedark.nvim",
     opts = {
       style = "darker",
-      transparent = true,
-      lualine = {
-        transparent = true,
-      },
+    },
+  },
+  {
+    "EdenEast/nightfox.nvim",
+    opts = {
+      lazy = false,
+      priority = 1000,
     },
   },
   {
     "lazyvim/lazyVim",
-    opts = { colorscheme = "onedark" },
+    opts = { colorscheme = "carbonfox" },
   },
 }
